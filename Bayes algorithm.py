@@ -5,7 +5,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, precision_score, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Load data from csv
+
+# Load data from csv 
 data = pd.read_csv('BHU1.csv')
 
 # Split data into features (criteria) and labels (Level)
